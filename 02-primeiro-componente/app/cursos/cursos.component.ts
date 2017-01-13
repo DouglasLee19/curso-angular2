@@ -19,7 +19,7 @@ export class CursosComponent {
 
   nomePortal = 'loiane.traning';
 
-  cursos;
+  cursos: any;
 
   constructor(cursosService: CursosService){
     this.cursos = cursosService.getCursos();
